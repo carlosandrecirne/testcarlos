@@ -1,1 +1,51 @@
-{}
+[{
+  "lat": -34.397,
+  "lng": 150.554,
+  "name": "location 1",
+  "id": 1
+},{
+  "lat": -34.397,
+  "lng": 150.564,
+  "name": "location 2",
+  "id": 2
+},{
+  "lat": -34.397,
+  "lng": 150.574,
+  "name": "location 3",
+  "id": 3
+},{
+  "lat": -34.397,
+  "lng": 150.584,
+  "name": "location 4",
+  "id": 4
+},{
+  "lat": -34.397,
+  "lng": 150.594,
+  "name": "location 5",
+  "id": 5
+},{
+  "lat": -34.397,
+  "lng": 150.604,
+  "name": "location 6",
+  "id": 6
+},{
+  "lat": -34.397,
+  "lng": 150.614,
+  "name": "location 7",
+  "id": 7
+},{
+  "lat": -34.397,
+  "lng": 150.624,
+  "name": "location 8",
+  "id": 8
+},{
+  "lat": -34.397,
+  "lng": 150.634,
+  "name": "location 9",
+  "id": 9
+},{
+  "lat": -34.397,
+  "lng": 150.634,
+  "name": "location 10",
+  "id": 10
+}]
