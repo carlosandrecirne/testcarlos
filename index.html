@@ -5,11 +5,16 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
     <title>Test</title>
 	<link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
   </head>
   <body>
       <header>Header</header>
-      <div id="content_map" class="content"></div>
-      <div id="content_list" class="content" style="display:none"></div>
-      <footer><div class="buttonx active">Map</div><div class="buttonx">List</div></footer>
+      <div id="content_map" class="content">Map View</div>
+      <div id="content_list" class="content" style="display:none">List View</div>
+      <footer><div id="btn_map" class="buttonx active" onclick="openpage(this.id)">Map</div><div id="btn_list" class="buttonx"  onclick="openpage(this.id)">List</div></footer>
   </body>
 </html>
