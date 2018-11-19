@@ -13,6 +13,10 @@ header{
   line-height:100px;
   
 }
+body{
+  padding:0px;
+  margin:0px;
+}
 
 footer{
   text-align:center;
@@ -37,7 +41,11 @@ footer{
   height:calc(100% - 180px);
   min-height:calc(100% - 180px);
   max-height:calc(100% - 180px);
-  overflow-y:auto;
+  overflow-y:auto; 
+}
+#content_map{
+  padding:0px;
+  margin:0px;	
 }
 .buttonx{
 	width:50%;
@@ -47,4 +55,20 @@ footer{
 .active{
 	background-color:#333;
 	color:white;	
+}
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
 }
